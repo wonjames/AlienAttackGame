@@ -374,7 +374,7 @@ public class AlienAttackFrame extends JFrame
         try
         {
             //reads the properties
-            File file = new File("C:/Users/Wonja/Documents/CS2113/AlienAttackGame/AlienAttack.properties");
+            File file = new File("AlienAttack.properties");
             
             BufferedReader br = new BufferedReader(new FileReader(file));
             String line = br.readLine();
